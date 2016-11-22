@@ -10,28 +10,44 @@
 		<script src="{{ asset('/js/tether.min.js') }}"></script>
 		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
 		<!-- Select2 -->
-		<script src="{{ asset('/plugins/select2/select2.full.min.js') }}"></script>	
-
 		<script src="{{ asset('/js/owl.carousel.min.js') }}"></script>	
 		
-		<script type="text/javascript">
-			$(function () {
-			    //Initialize Select2 Elements
-			    $(".select2").select2();
-			});
-		</script>
 		<script>
 			$(document).ready(function(){
-			  var owl = $("#owl-demo");
+			  var owl = $(".owl-carousel");
  
 			  owl.owlCarousel({
 			  	loop: true,
-			  	items: 1,
-			  	autoplay:true,
-			    autoplayTimeout:1000,
-			    autoplayHoverPause:true
+			  	autoplay: true,
+			    autoplayTimeout: 3000,
+			    autoplayHoverPause: true,
+			    animateOut: 'fadeOut',
+			    responsiveClass:true,
+			    margin: 10,
+			    responsive:{
+			        0:{
+			            items:1,
+			            nav:true
+			        },
+			        600:{
+			            items:3,
+			            nav:false
+			        },
+			        1000:{
+			            items:8,
+			            nav:true,
+			            loop:true
+			        },
+			        1500:{
+			        	items:8,
+			            nav:true,
+			            loop:true
+			        }
+			    },
+			    nav: true,
+			    navText: ["<a href='javascript:void(0)'><i class='fa fa-angle-left fa-3x'></i></a>", "<a href='javascript:void(0)'><i class='fa fa-angle-right fa-3x'></i></a>"]
 			  });
-			 
+
 			  // Custom Navigation Events
 			  $(".next").click(function(){
 			    owl.trigger('owl.next');

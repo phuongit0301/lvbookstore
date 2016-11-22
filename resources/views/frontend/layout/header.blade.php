@@ -46,7 +46,7 @@
 							      </div>
 							    </li>
 							  </ul>
-							  <form class="form-inline float-xs-right">
+							  <form class="form-inline float-xs-right container-search">
 							    <input class="form-control" type="text" placeholder="Search">
 							    <button class="btn btn-outline-secondary" type="submit">Tìm kiếm</button>
 							  </form>

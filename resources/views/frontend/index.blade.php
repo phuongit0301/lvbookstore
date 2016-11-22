@@ -4,109 +4,103 @@
 	
 	@include('frontend.layout.slider')
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-12">
+	<div class="container-top blocks-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+		
+					<div class="container-title text-left">
+					  <h3 class="titles text-left">TRUYỆN ĐỀ CỬ</h3>
+					</div>
+
+					<div id="owl-top" class="owl-carousel owl-theme">
+						<div class="item">
+							<figure class="block-books">
+								<div class="new-item">Hot</div>
+								<a href="#">
+									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
+								</a>
+								<figcaption class="block-chapter">
+									<hgroup>
+										<h5>Hon trom 55 lan</h5>
+										<h6>Chuong 32</h6>
+									</hgroup>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure class="block-books">
+								<div class="new-item">Hot</div>
+								<a href="#">
+									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
+								</a>
+								<figcaption class="block-chapter">
+									<hgroup>
+										<h5>Hon trom 55 lan</h5>
+										<h6>Chuong 32</h6>
+									</hgroup>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure class="block-books">
+								<div class="new-item">Hot</div>
+								<a href="#">
+									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
+								</a>
+								<figcaption class="block-chapter">
+									<hgroup>
+										<h5>Hon trom 55 lan</h5>
+										<h6>Chuong 32</h6>
+									</hgroup>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure class="block-books">
+								<div class="new-item">Hot</div>
+								<a href="#">
+									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
+								</a>
+								<figcaption class="block-chapter">
+									<hgroup>
+										<h5>Hon trom 55 lan</h5>
+										<h6>Chuong 32</h6>
+									</hgroup>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="item">
+							<figure class="block-books">
+								<div class="new-item">Hot</div>
+								<a href="#">
+									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
+								</a>
+								<figcaption class="block-chapter">
+									<hgroup>
+										<h5>Hon trom 55 lan</h5>
+										<h6>Chuong 32</h6>
+									</hgroup>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div><!--end row -->
+		</div><!--end container-fluid-->
+	</div><!--end container-top -->
 	
-				<div class="customNavigation">
-				  <h3 class="title-area text-left">TRUYEN DE CU</h3>
-				  <a class="btn prev">Previous</a>
-				  <a class="btn next">Next</a>
-				</div>
+	<div class="container-new blocks-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+		
+					<div class="container-title text-left">
+					  <h3 class="titles text-left">TRUYỆN MỚI CẬP NHẬT</h3>
+					</div>
 
-				<div id="owl-demo" class="owl-carousel owl-theme">
-					<div class="item">
-						<figure class="block-books">
-							<div class="new-item">Hot</div>
-							<a href="#">
-								<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-							</a>
-							<figcaption class="block-chapter">
-								<hgroup>
-									<h5>Hon trom 55 lan</h5>
-									<h6>Chuong 32</h6>
-								</hgroup>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="item">
-						<figure class="block-books">
-							<div class="new-item">Hot</div>
-							<a href="#">
-								<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-							</a>
-							<figcaption class="block-chapter">
-								<hgroup>
-									<h5>Hon trom 55 lan</h5>
-									<h6>Chuong 32</h6>
-								</hgroup>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="item">
-						<figure class="block-books">
-							<div class="new-item">Hot</div>
-							<a href="#">
-								<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-							</a>
-							<figcaption class="block-chapter">
-								<hgroup>
-									<h5>Hon trom 55 lan</h5>
-									<h6>Chuong 32</h6>
-								</hgroup>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="item">
-						<figure class="block-books">
-							<div class="new-item">Hot</div>
-							<a href="#">
-								<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-							</a>
-							<figcaption class="block-chapter">
-								<hgroup>
-									<h5>Hon trom 55 lan</h5>
-									<h6>Chuong 32</h6>
-								</hgroup>
-							</figcaption>
-						</figure>
-					</div>
-					<div class="item">
-						<figure class="block-books">
-							<div class="new-item">Hot</div>
-							<a href="#">
-								<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-							</a>
-							<figcaption class="block-chapter">
-								<hgroup>
-									<h5>Hon trom 55 lan</h5>
-									<h6>Chuong 32</h6>
-								</hgroup>
-							</figcaption>
-						</figure>
-					</div>
-				</div>
-			</div>
-		</div><!--end row -->
-		<div class="row">
-			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-				<div class="main-area">
-					<div class="row">
-						<div class="col-lg-12">
-							<ul class="block-title">
-								<li><h3 class="title-area">TRUYEN DE CU</h3></li>
-								<li class="more-item">
-									<div class="customNavigation">
-									  <a class="btn prev">Previous</a>
-									  <a class="btn next">Next</a>
-									</div>
-								</li>
-							</ul>
-						</div>
-						
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-md-4">
+					<div id="owl-news" class="owl-carousel owl-theme">
+						<div class="item">
 							<figure class="block-books">
 								<div class="new-item">Hot</div>
 								<a href="#">
@@ -120,23 +114,7 @@
 								</figcaption>
 							</figure>
 						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<figure class="block-books">
-								<div class="new-item">Hot</div>
-								<a href="#">
-									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-								</a>
-								<figcaption class="block-chapter">
-									<hgroup>
-										<h5>Hon trom 55 lan dasasdsadasdasdasdasdasd</h5>
-										<h6>Chuong 32</h6>
-									</hgroup>
-								</figcaption>
-							</figure>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
+						<div class="item">
 							<figure class="block-books">
 								<div class="new-item">Hot</div>
 								<a href="#">
@@ -150,8 +128,7 @@
 								</figcaption>
 							</figure>
 						</div>
-
-						<div class="col-lg-4 col-md-4">
+						<div class="item">
 							<figure class="block-books">
 								<div class="new-item">Hot</div>
 								<a href="#">
@@ -165,23 +142,7 @@
 								</figcaption>
 							</figure>
 						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<figure class="block-books">
-								<div class="new-item">Hot</div>
-								<a href="#">
-									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-								</a>
-								<figcaption class="block-chapter">
-									<hgroup>
-										<h5>Hon trom 55 lan dasasdsadasdasdasdasdasd</h5>
-										<h6>Chuong 32</h6>
-									</hgroup>
-								</figcaption>
-							</figure>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
+						<div class="item">
 							<figure class="block-books">
 								<div class="new-item">Hot</div>
 								<a href="#">
@@ -195,118 +156,24 @@
 								</figcaption>
 							</figure>
 						</div>
-
+						<div class="item">
+							<figure class="block-books">
+								<div class="new-item">Hot</div>
+								<a href="#">
+									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
+								</a>
+								<figcaption class="block-chapter">
+									<hgroup>
+										<h5>Hon trom 55 lan</h5>
+										<h6>Chuong 32</h6>
+									</hgroup>
+								</figcaption>
+							</figure>
+						</div>
 					</div>
 				</div>
-
-				<div class="main-area">
-					<div class="row">
-						<div class="col-lg-12">
-							<ul class="block-title">
-								<li><h3 class="title-area">TRUYEN MOI CAP NHAT</h3></li>
-								<li class="more-item"><a href="#">Xem Them</a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-md-4">
-							<figure class="block-books">
-								<div class="new-item">Hot</div>
-								<a href="#">
-									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-								</a>
-								<figcaption class="block-chapter">
-									<hgroup>
-										<h5>Hon trom 55 lan</h5>
-										<h6>Chuong 32</h6>
-									</hgroup>
-								</figcaption>
-							</figure>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<figure class="block-books">
-								<div class="new-item">Hot</div>
-								<a href="#">
-									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-								</a>
-								<figcaption class="block-chapter">
-									<hgroup>
-										<h5>Hon trom 55 lan dasasdsadasdasdasdasdasd</h5>
-										<h6>Chuong 32</h6>
-									</hgroup>
-								</figcaption>
-							</figure>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<figure class="block-books">
-								<div class="new-item">Hot</div>
-								<a href="#">
-									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-								</a>
-								<figcaption class="block-chapter">
-									<hgroup>
-										<h5>Hon trom 55 lan</h5>
-										<h6>Chuong 32</h6>
-									</hgroup>
-								</figcaption>
-							</figure>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<figure class="block-books">
-								<div class="new-item">Hot</div>
-								<a href="#">
-									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-								</a>
-								<figcaption class="block-chapter">
-									<hgroup>
-										<h5>Hon trom 55 lan</h5>
-										<h6>Chuong 32</h6>
-									</hgroup>
-								</figcaption>
-							</figure>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<figure class="block-books">
-								<div class="new-item">Hot</div>
-								<a href="#">
-									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-								</a>
-								<figcaption class="block-chapter">
-									<hgroup>
-										<h5>Hon trom 55 lan dasasdsadasdasdasdasdasd</h5>
-										<h6>Chuong 32</h6>
-									</hgroup>
-								</figcaption>
-							</figure>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<figure class="block-books">
-								<div class="new-item">Hot</div>
-								<a href="#">
-									<img src="http://thichdoctruyen.com/images/thumb_v2/194_1444711965697-hon-trom-55-lan.jpg" />
-								</a>
-								<figcaption class="block-chapter">
-									<hgroup>
-										<h5>Hon trom 55 lan</h5>
-										<h6>Chuong 32</h6>
-									</hgroup>
-								</figcaption>
-							</figure>
-						</div>
-
-					</div>
-				</div>
-			</div><!--end col-lg-9 col-md-9 col-sm-12 col-xs-12-->
-
-			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				@include('frontend.layout.sidebar')
-			</div><!--end col-lg-3 col-md-3 col-sm-12 col-xs-12-->
-		</div>
-	</div><!--end container-fluid-->
+			</div><!--end row -->
+		</div><!--end container-fluid-->
+	</div><!--end container-new -->
 
 @endsection
