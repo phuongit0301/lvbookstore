@@ -6,7 +6,7 @@
 body {
 	font-family: "Source Sans Pro",sans-serif;
 	font-size: 13px;
-	color: #060606;
+	color: #595959;
 	background-color: #F7F5F5 !important;
 }
 ul, li {
@@ -27,10 +27,9 @@ img {
 #slider-container {
 	max-height: 400px;
 	overflow: hidden;
-	margin-top: 20px;
 }
 .top-header-area, .under-header-area {
-	background-color: #f26522;
+	background-color: #FFF;
 }
 .under-header-area {
 	position: relative;
@@ -56,7 +55,8 @@ a.slider-child {
 	margin-bottom: 10px;
 }
 #main-container {
-	margin-top: 30px;
+	background-color: #333;
+	padding-top: 20px;
 }
 .top-header::after {
 	content: "";
@@ -77,8 +77,8 @@ a.slider-child {
 	background-color: #f26522;
 }*/
 .btn-outline-secondary {
-	border-color: #fff;
-	color: #fff;
+	border-color: rgba(0,0,0,.15);
+	color: #ccc;
 }
 .btn-outline-secondary:hover, .btn-outline-secondary:focus {
 	border: 1px solid #FFF;
@@ -175,4 +175,27 @@ ul.block-title > li.more-item a {
 }
 ul.block-title > li.more-item a:hover, ul.block-title > li.more-item a:focus {
 	color: #f26522;
+}
+
+#owl-demo .item{
+  background: #3fbf79;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

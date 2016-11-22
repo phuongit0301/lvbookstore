@@ -13,8 +13,8 @@
 
 Route::resource('/', 'User\IndexController');
 
-Route::group(['prefix' => 'admin/management', 'middleware' => ['web']], function () {
+//Route::group(['prefix' => 'admin/management', 'middleware' => ['web']], function () {
 	Route::resource('/story', 'Admin\StoryController');
 	Route::resource('/category', 'Admin\CategoryController');
 	Route::get('/auto', 'Admin\StoryController@automatic');
-});
+//});

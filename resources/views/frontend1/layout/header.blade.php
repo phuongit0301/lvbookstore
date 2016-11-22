@@ -14,7 +14,6 @@
 		<link rel="stylesheet" href="{{ asset('/css/tether.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css') }}" />
 		<link rel="stylesheet" href="{{ asset('/plugins/select2/select2.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('/css/owl.carousel.css') }}">
 		<link rel="stylesheet" href="{{ asset('/css/style.css') }}" />
 
 		@yield('styles')
