@@ -20,7 +20,9 @@ img {
 	height: auto;
 	display: block;
 }
-
+.sidebar-area ul {
+	overflow: hidden;
+}
 .container-fluid {
 	max-width: 1600px;
 	margin: 0 auto;
@@ -85,12 +87,17 @@ a.navbar-brand, form.container-search {
 .btn-outline-secondary:hover, .btn-outline-secondary:focus {
 	border: 1px solid #FFF;
 }
-.sidebar-area, .main-area {
+/*.sidebar-area, .main-area {
 	background-color: #fff;
 	position: relative;
 	box-shadow: 0 1px 2px #eeecec;
 	padding: 15px;
 	margin-bottom: 30px;
+}*/
+.sidebar-area {
+	margin-bottom: 30px;
+	background-color: rgba(255, 255, 255, 0.05);
+	padding: 15px;
 }
 .sidebar-area .block-hot > img {
 	width: 80px;
@@ -98,16 +105,31 @@ a.navbar-brand, form.container-search {
 	margin-right: 10px;
 	border: 1px solid #9a9a9a;
 }
+.sidebar-area ul {
+	padding-left: 15px;
+	padding-top: 15px;
+}
 .sidebar-area ul > li {
 	display: block;
 	width: 100%;
-	float: left;
-	border-bottom: 1px solid #eeecec;
-	padding: 10px 0;
 }
-.sidebar-area ul > li:last-child {
-	border-bottom: 0;
+.sidebar-area ul > li > a {
+	color: rgba(190, 190, 190, 0.99);
+	font-size: 15px;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
 }
+.sidebar-area ul > li > a:hover,
+.sidebar-area ul > li > a:focus {
+	color: #FFFFFF;
+} 
+.sidebar-area ul > li > a > i {
+	margin-right: 15px;
+}
+/*.sidebar-area h3.titles {
+	color: rgba(190, 190, 190, 0.99);
+}*/
 div.block-title {
 	border-bottom: 1px solid #f26522;
 	padding-bottom: 7px;

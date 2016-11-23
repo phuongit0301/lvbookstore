@@ -1,26 +1,56 @@
 <div class="sidebar-area">
 	<div class="block-title">
-		<span>Truyen Hot</span>
+		<h3 class="titles">THỂ LOẠI TRUYỆN</h3>
 	</div>
 
 	<ul>
 		<li>
-			<figure class="block-hot">
-				<img class="pull-left" src="http://thichdoctruyen.com/images/thumb_v2/51_1444711965697-hon-trom-55-lan.jpg" ?>
-				<figcaption><a href="#">Hon trom 55 lan</a></figcaption>
-			</figure>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
 		</li>
 		<li>
-			<figure class="block-hot">
-				<img class="pull-left" src="http://thichdoctruyen.com/images/thumb_v2/51_1444711965697-hon-trom-55-lan.jpg" ?>
-				<figcaption><a href="#">Hon trom 55 lan</a></figcaption>
-			</figure>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
 		</li>
 		<li>
-			<figure class="block-hot">
-				<img class="pull-left" src="http://thichdoctruyen.com/images/thumb_v2/51_1444711965697-hon-trom-55-lan.jpg" ?>
-				<figcaption><a href="#">Hon trom 55 lan</a></figcaption>
-			</figure>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-angle-double-right"></i>Tiên Hiệp</a>
 		</li>
 	</ul>
 </div><!--end sidebar-area-->

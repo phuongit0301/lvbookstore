@@ -19,7 +19,7 @@
 			  owl.owlCarousel({
 			  	loop: true,
 			  	autoplay: true,
-			    autoplayTimeout: 3000,
+			    autoplayTimeout: 5000,
 			    autoplayHoverPause: true,
 			    animateOut: 'fadeOut',
 			    responsiveClass:true,
@@ -38,11 +38,6 @@
 			            nav:true,
 			            loop:true
 			        },
-			        1500:{
-			        	items:8,
-			            nav:true,
-			            loop:true
-			        }
 			    },
 			    nav: true,
 			    navText: ["<a href='javascript:void(0)'><i class='fa fa-angle-left fa-3x'></i></a>", "<a href='javascript:void(0)'><i class='fa fa-angle-right fa-3x'></i></a>"]

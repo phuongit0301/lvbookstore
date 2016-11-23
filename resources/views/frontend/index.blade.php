@@ -175,5 +175,17 @@
 			</div><!--end row -->
 		</div><!--end container-fluid-->
 	</div><!--end container-new -->
+	
+	<div class="container-finish blocks-area">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					@include('frontend.layout.sidebar')
+				</div>
+				<div class="col-md-9">
 
+				</div>
+			</div>
+		</div>
+	</div><!--end container-finish block-books-->
 @endsection
