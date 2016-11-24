@@ -1,17 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<style>
-		.pagination li, .pagination li a {
-			display: inline-block;
-			padding: 5px;
-		}
-	</style>
-</head>
-<body>
-	<table>
+@extends('backend.layouts.index')
+
+@section('content')
+
+    <h1>List Story</h1>
+
+    {!! link_to_route('admin.management.story.create', 'Add a new one', [], ['class' => 'btn btn-primary']) !!}
+
+	<table class="table">
 		<tr>
 			<th>id</th>
 			<th>Chapter</th>
@@ -33,8 +28,11 @@
              <td>{{ $story->categories->name }}</td>
              <td>{{ $story->tags->name }}</td>
              <td>
-             	<a href="{{url('story',$story->id)}}" class="btn btn-primary">Read</a>
-             	<a href="{{route('story.edit',$story->id)}}" class="btn btn-warning">Update</a>
+             	{!! link_to_route('admin.management.story.show', 'View', [$story->id], ['class' => 'btn btn-info']) !!}
+                {!! link_to_route('admin.management.story.edit', 'Edit', [$story->id], ['class' => 'btn btn-primary']) !!}
+                {!! Form::open(['method' => 'DELETE', 'route' => ['admin.management.story.destroy', $story->id]]) !!}
+                    {!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
+                {!! Form::close() !!}
          	</td>
          </tr>
 		@endforeach
@@ -42,5 +40,5 @@
 			<td colspan="7">{{ $stories->links() }}</td>
 		</tr>
 	</table>
-</body>
-</html>
+
+@endsection

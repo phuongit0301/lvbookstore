@@ -7,7 +7,7 @@ body {
 	font-family: "Source Sans Pro",sans-serif;
 	font-size: 13px;
 	color: #595959;
-	background-color: #545454 !important;
+	background-color: rgba(12, 12, 12, 0.81) !important;
 }
 ul, li {
 	list-style-type: none;
@@ -29,6 +29,7 @@ img {
 }
 #main-container {
 	background-color: rgba(12, 12, 12, 0.81);
+	padding-bottom: 30px;
 }
 #slider-container {
 	max-height: 400px;
@@ -214,7 +215,6 @@ ul.block-title > li.more-item a:hover, ul.block-title > li.more-item a:focus {
 .customNavigation{
   text-align: center;
 }
-//use styles below to disable ugly selection
 .customNavigation a{
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -259,4 +259,24 @@ ul.block-title > li.more-item a:hover, ul.block-title > li.more-item a:focus {
 .titles {
 	color: #FFFFFF;
 	text-transform: uppercase
+}
+#footer-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 15px;
+}
+
+#footer-container p {
+	color: #FFFFFF;
+	font-size: 13px;
+}
+.tags-container > li, .tags-container > li > a {
+	display: inline-block;
+}
+.tags-container > li > a > h6 > span {
+	color: #d4d4d4;
+}
+.tags-container > li > a > h6 > span:hover,
+.tags-container > li > a > h6 > span:focus {
+	background-color: #f26522;
+	color: #FFFFFF;
 }

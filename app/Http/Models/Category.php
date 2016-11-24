@@ -9,7 +9,7 @@ class Category extends Model
 {
     protected $table = 'categories';
 
-    protected $fillable = ['name','slug', 'description', 'sort'];
+    protected $fillable = ['name','slug', 'description', 'sort', 'parent_id'];
 
     protected $guarded = ['id', '_token'];
 

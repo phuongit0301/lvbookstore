@@ -38,7 +38,7 @@ class CategoryController extends Controller
         $listCategories = $listCategories->pluck('name', 'id');
         $listCategories = $listCategories->prepend('Please Select Category');
         $listCategories = $listCategories->all();*/
-        return view('backend.categories.create', compact('category', 'listCategories'));
+        return view('backend.category.create', compact('category', 'listCategories'));
     }
 
     /**
@@ -80,7 +80,7 @@ class CategoryController extends Controller
     {
         $category = $this->category->findOrFail($id);
         $listCategories = $this->category->where('id', '<>', $category->id)->lists('name', 'id')->prepend('Please Select Category');
-        return view('admin.management.category.edit', compact('category', 'listCategories'));
+        return view('backend.category.edit', compact('category', 'listCategories'));
     }
 
     /**
@@ -98,7 +98,7 @@ class CategoryController extends Controller
         } catch (Exception $e) {
             echo 'Error Update Category: '. $e->getMessage();
         }
-        return redirect('admin/category')->with('message', 'Category successfully updated!');
+        return redirect('admin/management/category')->with('message', 'Category successfully updated!');
     }
 
     /**

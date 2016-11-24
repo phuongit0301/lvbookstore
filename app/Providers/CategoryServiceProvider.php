@@ -30,6 +30,6 @@ class CategoryServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('App\Repositories\Interfaces\CategoryInterface', 'App\Repositories\CategoryRepository');
     }
 }
